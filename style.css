@@ -1,0 +1,109 @@
+body{
+    background: #581845;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    color: #c70039;
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+h2{
+    color: white; 
+}
+
+p{
+    font-size: 22px;
+    width: 900px;
+    margin: 0 auto; 
+    color:white; 
+}
+
+#imagen{
+    width: 500px ;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#imagen2{
+    width: 400px ;
+    border-radius: 50px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+}
+
+form{
+
+    background: linear-gradient(#FF5733, #900C3F);
+    width: 500px;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 40px 70px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50px;
+}
+
+form label{
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+form input,
+form textarea,
+form select{
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 80%;
+    border-radius: 1px solid #fff;
+}
+
+form button{
+    background: black;
+    color: #fff;
+    padding: 15px 50px;
+    font-size: 22px;
+    width:100%;
+    cursor: pointer;
+    border: 2px solid #000000;
+    transition: .5s;
+}
+
+form button:hover{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+section{
+    width: 100%;
+    min-height: 500px;
+    padding: 60px 0;
+    text-align: center;
+    background: url(https://blogs.iadb.org/salud/wp-content/uploads/sites/15/2020/01/SPH_Blog_PP_ENE2020-7-POST.png);
+    background-size: cover;
+    border-radius: 50px;
+    border: 5px solid #fff;
+    
+}
+
+section button{
+    padding: 12px 30px;
+    background:#FF5733;
+    color:#000000;
+    font-size: 25px;
+}
+
+section button:hover{
+    background: transparent;
+    border: 2px solid #c70039;
+    color: #000000;
+}
